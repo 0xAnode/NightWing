@@ -1,0 +1,9 @@
+# Données SIEM
+*.db
+/data/
+/backup/
+/raw/
+/archive/
+
+.env
+

@@ -1,0 +1,29 @@
+<html>
+
+
+    <head>
+    
+	<meta charset="utf-8">
+	<title>Dashboard NightWing</title>
+    
+    </head>
+
+
+    <body>
+    
+        <h1>General</h1>
+
+	<table border="1">
+            <tr><th>Id</th><th>Logs</th></tr>
+	    {% for l in logs%}
+	    <tr>
+                <td>{{ l["id"] }}</td>
+		<td>{{ l["logs"] }}</td>
+	    </tr>
+	    {% endfor %}
+	</table>
+
+    </body>
+
+
+</html>
